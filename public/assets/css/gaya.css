@@ -1,0 +1,381 @@
+.nav {
+    position: fixed;
+    z-index: 1;
+}
+
+
+.buttonn {
+    width: 133px;
+    height: 40px;
+    background-color: #fff  !important;
+    color: #46A5E8  !important;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-second {
+    width: 133px;
+    height: 40px;
+    background-color: #46A5E8;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bg-blue {
+    background-color: #46A5E8;
+}
+
+.shadow {
+    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.25);
+}
+
+#hero {
+    background: #46A5E8;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .img-hero {
+        height: 110%;
+        width: auto;
+        position: absolute;
+        margin-top: 90%;
+    }
+    
+    .hero-tagline h1{
+        color: #2A0F61;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px;
+        margin-top: 10%;
+    }
+    
+    hr {
+        width: 20%;
+        font: bold;
+    }
+
+    .hero-tagline p {
+        color: #F04F7F;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    
+    .button-lg-primary {
+        width: 237px;
+        height: 70px;
+        background-color: #8967B1;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: -71px;
+        background-color: #ffffff;
+        padding: 27px;
+        border-radius: 5px;
+        position: relative;
+        
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f1f1f1;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    .card label {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    
+    .card select {
+        padding: 4px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
+    .card-list {
+        gap: 100px;
+    }
+    
+    .search-button {
+        padding: 10px 20px;
+        background-color: #0277bd;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .search-button:hover {
+        background-color: #01579b;
+    }
+    
+    .hal2 {
+        margin-top: 10%;
+    }
+
+    .hal2 p {
+        margin-top: 4%;
+    }
+
+    .image {
+        width: 90%;
+        margin-top: 30%;
+    }
+
+    .hal2 h3 {
+        color: #46A5E8; /* Atur warna teks */
+        margin-top: 10px; /* Atur margin atas */
+        position: relative; /* Tetapkan posisi relatif */
+        padding-left: 20px; /* Atur spasi kiri */
+    }
+    
+    .hal2 h3::before {
+        content: "\2022"; /* Tambahkan bullet sebagai konten pseudo-element */
+        position: absolute; /* Tetapkan posisi absolut */
+        left: 0; /* Posisikan di sebelah kiri elemen utama */
+        top: 50%; /* Posisikan secara vertikal di tengah */
+        transform: translateY(-50%); /* Atur vertikal posisinya */
+    }
+
+    .on {
+        margin-top: 50px;
+    }
+    .trending {
+       gap: 50px;
+    }
+
+    .about-us {
+        margin-top: 8%;
+        margin-bottom: 4%;
+        background-color: #46A5E8;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .testimonial-card {
+        background-color: #46A5E8; /* Warna latar belakang */
+        border: 1px solid #ced4da;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 45px;
+        position: relative;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-height: 250px;
+        color: #ffffff; /* Warna teks putih */
+    }
+    .quote {
+        font-size: 40px;
+        color: #46A5E8; /* Warna tanda kutip putih */
+        position: absolute;
+        top: -20px;
+        left: -20px;
+    }
+    .comment {
+        font-size: 18px;
+      
+        position: relative;
+        padding-left: 40px; /* Memberikan ruang untuk tanda kutip */
+    }
+    .profile {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .profile img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    .profile-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile-info strong {
+        font-size: 16px;
+        color: #ffffff; /* Warna teks putih */
+    }
+    .profile-info span {
+        font-size: 14px;
+        color: #ffffff; /* Warna teks putih */
+    }
+
+    footer {
+        padding: 60px 0;
+        font-size: 1.2rem;
+        gap: 30px;
+    }
+    footer .p-4 {
+        padding: 2rem !important;
+    }
+    footer .p-3 {
+        padding: 3rem !important;
+    }
+    footer h5 {
+        font-size: 1.5rem;
+    }
+    
+    .ooter {
+        background-color: #ffffff;
+        box-shadow: 0px -3px 20px 0px rgba(0, 0, 0, 0.15);
+        color: #ffffff;
+        margin-top: 40px;
+        text-decoration: none;
+        gap: 40px;
+        font-style: normal;
+    }
+
+    footer {
+        color: rgb(0, 0, 0);
+    }
+    
+    .atas {
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    
+    .address img {
+        margin-bottom: 21px; 
+    }
+    
+    .address .add {
+        color: var(--text-color-secondary);
+        font-family: var(--font-isi);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        width: 408px;
+        height: 90px;
+    }
+    
+    .open {
+        margin-top: 10px;
+        color: var(--text-color);
+        font-family: var(--font-isi);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    
+    .hours {
+        display: flex;
+    }
+    
+    .day {
+        margin-right: 30px;
+        color: var(--text-color-secondary);
+        font-family: var(--font-isi);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+    }
+    
+    .navigation-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title-footer {
+        color: var(--text-color);
+        font-family: var(--font-isi);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+    
+    .navigation-footer a {
+        color: var(--text-color-secondary);
+        font-family: var(--font-isi);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+    
+    .dishes-footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .dishes-footer a {
+        color: #5C6574;
+        font-family: var(--font-isi);
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 250% */
+    }
+    
+    .sosmed-footer a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        background: transparent;
+        border: 1px solid var(--text-color);
+        padding: 7px;
+        border-radius: 50%;
+        color: var(--text-color);
+    }
+    
+    .bawah {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bawah p {
+        color: var(--text-color-secondary);
+        font-family: var(--font-isi);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+    }
+
+    .featured-story img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+    .top-stories {
+        margin-top: 20px;
+    }
+    .opinion {
+        background-color: white;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    
+    .card-title {
+        font-weight: 700; 
+        color: #0277BD; 
+    }
+
+   

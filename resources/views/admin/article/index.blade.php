@@ -28,17 +28,24 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($articles as $article)
+                        @forelse ($articles as $article)
                         <tr>
                             <td>{{$article->id}}</td>
-                            <td>{{$article->name}}</td>
+                            <td>{{$article->title}}</td>
                             <td>{{$article->status ? 'Hidden' : 'Visible'}}</td>
+                        
                             <td>
-                                <a href="" class="btn btn-primary btn-sm">Edit</a>
-                                <a href="" onclick="return confirm('are you sure want to delete this article?')" class="btn btn-danger btn-sm">Delete</a>
+                                <a href="{{ route( 'articles-edit', $article->id )}}" class="btn btn-primary btn-sm">Edit</a>
+                                <a href="{{route( 'articles-delete', $article->id )}}" onclick="return confirm('are you sure want to delete this article?')" class="btn btn-danger btn-sm">Delete</a>
                             </td>
                         </tr>
-                        @endforeach
+                        @empty
+                        
+                        <tr>
+                            <td colspan="7">No Article Available</td>
+                        </tr>
+                        @endforelse
+
                     </tbody>
                 </table>
             </div>
